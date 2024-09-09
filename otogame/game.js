@@ -585,7 +585,7 @@ function showGameOverModal() {
     modal.style.zIndex = '1000';
 
     const timeEndured = gameOverTime.toFixed(2);
-    const tweetText = encodeURIComponent(`#絶対領域の音GAME で ${timeEndured} 分間生き延びました! [Your Game URL]`);
+    const tweetText = encodeURIComponent(`#絶対領域の音GAME で ${timeEndured} 分間生き延びました! https://autmn134f.github.io/otogame/`);
     const twitterShareUrl = `https://twitter.com/intent/tweet?text=${tweetText}`;
 
     modal.innerHTML = `
